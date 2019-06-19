@@ -1,0 +1,64 @@
+{
+  "name": "gay",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "JAAgS",
+  "actions": [
+    {
+      "storage": "0",
+      "varName": "",
+      "name": "Delete Message"
+    },
+    {
+      "storage": "1",
+      "varName": "lovemuch!",
+      "min": "0",
+      "max": "100",
+      "name": "Generate Random Number"
+    },
+    {
+      "title": "",
+      "author": "👅Gay Check👅",
+      "color": "RANDOM",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "https://cdn4.iconfinder.com/data/icons/we-are-different-v1-1/512/heterosexual-1-512.png",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "gaycheck",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "gaycheck",
+      "message": "**${member} \nAre ${tempVars(\"lovemuch!\")}% Gay**",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "gaycheck",
+      "message": "Help -> Exemple (+gay)",
+      "footerIcon": "",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "gaycheck",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "name": "Send Embed Message"
+    }
+  ]
+}
