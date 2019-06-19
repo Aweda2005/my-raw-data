@@ -1,0 +1,40 @@
+{
+  "name": "snickers",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "QgGui",
+  "actions": [
+    {
+      "member": "1",
+      "varName": "",
+      "info": "2",
+      "storage": "1",
+      "varName2": "name",
+      "name": "Store Member Info"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "name": "Join Voice Channel"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5sC1tlyvEhw",
+      "seek": "0",
+      "volume": "100",
+      "passes": "1",
+      "bitrate": "",
+      "type": "0",
+      "name": "Play YouTube Video"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "**💩I do not associate with snickers**\n${tempVars(\"name\")}",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    }
+  ]
+}
