@@ -1,0 +1,55 @@
+{
+  "name": "suicidal",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "MOjvH",
+  "actions": [
+    {
+      "storage": "0",
+      "varName": "",
+      "name": "Delete Message"
+    },
+    {
+      "storage": "1",
+      "varName": "lovemuch!",
+      "min": "0",
+      "max": "100",
+      "name": "Generate Random Number"
+    },
+    {
+      "title": "",
+      "author": "💀suicidal💀",
+      "color": "BLACK",
+      "timestamp": "false",
+      "url": "",
+      "authorIcon": "https://images.vexels.com/media/users/3/143105/isolated/preview/3d976964ae6634264b5d75cac0206865-death-skull-metal-symbo-by-vexels.png",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "lovech",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "lovech",
+      "message": "**💀${member} its ${tempVars(\"lovemuch!\")}% suicidal💀**",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "lovech",
+      "message": "mentionedUser Exemple (+suicidal)",
+      "footerIcon": "",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "lovech",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "name": "Send Embed Message"
+    }
+  ]
+}
