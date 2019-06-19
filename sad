@@ -1,0 +1,56 @@
+{
+  "name": "sad",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "WhJNn",
+  "actions": [
+    {
+      "storage": "0",
+      "varName": "",
+      "name": "Delete Message"
+    },
+    {
+      "storage": "1",
+      "varName": "lovemuch!",
+      "min": "0",
+      "max": "100",
+      "name": "Generate Random Number"
+    },
+    {
+      "title": "",
+      "author": "Sad Check",
+      "color": "BLUE",
+      "timestamp": "false",
+      "url": "",
+      "authorIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Twemoji_1f62d.svg/1024px-Twemoji_1f62d.svg.png",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "sadcheck",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "sadcheck",
+      "message": "**😭${member} its Sad By ${tempVars(\"lovemuch!\")}%😭**",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "sadcheck",
+      "message": "Help -> Exemple (+sadcheck)",
+      "footerIcon": "",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "sadcheck",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "name": "Send Embed Message"
+    }
+  ],
+  "comType": "0"
+}
