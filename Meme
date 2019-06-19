@@ -1,0 +1,173 @@
+{
+  "name": "meme",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "YkFJX",
+  "actions": [
+    {
+      "storage": "1",
+      "varName": "memesimg",
+      "name": "Create List"
+    },
+    {
+      "storage": "1",
+      "varName": "memesimg",
+      "addType": "0",
+      "position": "",
+      "value": "\"https://i.imgur.com/Hxfr9JP.jpg\"",
+      "name": "Add Item to List"
+    },
+    {
+      "storage": "1",
+      "varName": "memesimg",
+      "addType": "0",
+      "position": "",
+      "value": "\"https://i.imgur.com/39x2Jx1.jpg\"",
+      "name": "Add Item to List"
+    },
+    {
+      "storage": "1",
+      "varName": "memesimg",
+      "addType": "0",
+      "position": "",
+      "value": "\"https://i.imgur.com/UEv29gp.jpg\"",
+      "name": "Add Item to List"
+    },
+    {
+      "storage": "1",
+      "varName": "memesimg",
+      "addType": "0",
+      "position": "",
+      "value": "\"https://i.imgur.com/mRVTKPH.jpg\"",
+      "name": "Add Item to List"
+    },
+    {
+      "storage": "1",
+      "varName": "memesimg",
+      "addType": "0",
+      "position": "",
+      "value": "\"https://i.imgur.com/cgegMAx.jpg\"",
+      "name": "Add Item to List"
+    },
+    {
+      "storage": "1",
+      "varName": "memesimg",
+      "addType": "0",
+      "position": "",
+      "value": "\"https://cdn.discordapp.com/attachments/589752918425468928/590691918623670416/sstMxMh-5ab00c7bfa6bcc003622e4f5.jpg\"",
+      "name": "Add Item to List"
+    },
+    {
+      "storage": "1",
+      "varName": "memesimg",
+      "addType": "0",
+      "position": "",
+      "value": "\"https://cdn.discordapp.com/attachments/589752918425468928/590693235924402176/bus-like-a-swede.jpg\"",
+      "name": "Add Item to List"
+    },
+    {
+      "storage": "1",
+      "varName": "memesimg",
+      "addType": "0",
+      "position": "",
+      "value": "\"https://cdn.discordapp.com/attachments/589752918425468928/590693215494209556/1540567353969-muskmeme.webp\"",
+      "name": "Add Item to List"
+    },
+    {
+      "storage": "1",
+      "varName": "memesimg",
+      "addType": "0",
+      "position": "",
+      "value": "\"https://cdn.discordapp.com/attachments/589752918425468928/590693177837486088/ramadan-memes-1557439709524.png\"",
+      "name": "Add Item to List"
+    },
+    {
+      "storage": "1",
+      "varName": "memesimg",
+      "addType": "0",
+      "position": "",
+      "value": "\"https://cdn.discordapp.com/attachments/589752918425468928/590693176990498839/may.jpg\"",
+      "name": "Add Item to List"
+    },
+    {
+      "list": "7",
+      "varName": "memesimg",
+      "getType": "2",
+      "position": "",
+      "storage": "1",
+      "varName2": "listradom",
+      "name": "Get Item from List"
+    },
+    {
+      "storage": "1",
+      "varName": "msgrandom",
+      "name": "Create List"
+    },
+    {
+      "storage": "1",
+      "varName": "msgrandom",
+      "addType": "0",
+      "position": "",
+      "value": "\"You like memes!\"",
+      "name": "Add Item to List"
+    },
+    {
+      "storage": "1",
+      "varName": "msgrandom",
+      "addType": "0",
+      "position": "",
+      "value": "\"Meme guys!\"",
+      "name": "Add Item to List"
+    },
+    {
+      "storage": "1",
+      "varName": "msgrandom",
+      "addType": "0",
+      "position": "",
+      "value": "\"ooof you like memes!!\"",
+      "name": "Add Item to List"
+    },
+    {
+      "list": "7",
+      "varName": "msgrandom",
+      "getType": "2",
+      "position": "",
+      "storage": "1",
+      "varName2": "randommsg",
+      "name": "Get Item from List"
+    },
+    {
+      "title": "",
+      "author": "${tempVars(\"randommsg\")}",
+      "color": "RANDOM",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "${tempVars(\"listradom\")}",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "msg",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "msg",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    }
+  ]
+}
