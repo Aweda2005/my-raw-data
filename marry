@@ -1,0 +1,43 @@
+{
+  "name": "marry",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "nVfbc",
+  "actions": [
+    {
+      "title": "",
+      "author": "",
+      "color": "fcd2c8",
+      "timestamp": "false",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "marryem",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "marryem",
+      "message": "💍**${member} got married with ${mentionedUser}**💍",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "marryem",
+      "message": "(+marry @user)",
+      "footerIcon": "",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "marryem",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "name": "Send Embed Message"
+    }
+  ]
+}
